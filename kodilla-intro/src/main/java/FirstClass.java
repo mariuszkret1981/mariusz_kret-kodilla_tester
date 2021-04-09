@@ -3,5 +3,3 @@ public class FirstClass {                           // [1]
         System.out.println("Hello from FirstClass!"); // [3]
     }
 }
-
-
