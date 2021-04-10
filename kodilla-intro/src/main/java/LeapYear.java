@@ -1,6 +1,6 @@
 public class LeapYear {
     public static void main(String[] args) {
-        int year = 2000;
+        int year = 2020;
         int firstNumber = 4;
         int secondNumber = 100;
         int threeNumber = 400;
