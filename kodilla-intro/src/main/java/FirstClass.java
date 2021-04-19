@@ -1,32 +1,39 @@
 public class FirstClass {                           // [1]
     public static void main(String[] args) {         // [2]
-        Notebook notebook = new Notebook(400);
-        System.out.println( notebook.weight);
-        notebook.chekweight();
+        Notebook notebook = new Notebook(2020, 1200, 400);
+        System.out.println(notebook.year);
+        System.out.println(notebook.price);
+        notebook.checkYearPrice();
+        notebook.checkWeight();
+        notebook.checkPrice();
 
 
-        Notebook notebook1 = new Notebook( 700);
-        System.out.println(notebook1.weight);
-        notebook1.chekweight();
+        Notebook notebook1 = new Notebook(216, 600, 600);
+        System.out.println(notebook1.year);
+        System.out.println(notebook1.price);
+        notebook1.checkYearPrice();
+        notebook1.checkWeight();
+        notebook1.checkPrice();
 
+        Notebook notebook2 = new Notebook(2016, 550, 1100);
+        System.out.println(notebook2.year);
+        System.out.println(notebook2.price);
+        notebook2.checkYearPrice();
+        notebook2.checkWeight();
+        notebook2.checkPrice();
 
-
-        Notebook notebook2 = new Notebook(2000);
-        System.out.println( notebook2.weight);
-        notebook2.chekweight();
-
-
-
-        if (notebook.weight < 500) {
-            System.out.println("The notebook is light");
-        } else if (notebook.weight > 600 && notebook.weight < 1000) {
-            System.out.println("notebook not too heavy");
-        } else {
-            System.out.println("very heavy notebook");
-        }
-
-
-        }
 
     }
+
+
+}
+
+
+
+
+
+
+
+
+
 
