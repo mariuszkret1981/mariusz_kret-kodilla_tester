@@ -1,38 +1,18 @@
- public class Book{
+ public class Book {
 
-    private String tytul;
-    private String autor;
+     private String tytul;
+     private String autor;
 
-     public String getTytul(){
-         return tytul;
+     public Book(String tytul, String autor){
+         this.tytul = tytul;
+         this.autor = autor;
      }
 
 
-     public void setTytul(String tytul){
-         this.tytul= tytul;
-     }
+    public static Book of(String tytul,String autor){
+        return new Book(tytul, autor);
+    }
 
-
-
-    public void displayTytul(){
-         System.out.println("Tytuł książki:" + tytul);
-     }
-
-
-     public String getAutor(){
-
-         return autor;
-     }
-
-     public void setAutor(String autor){
-
-         this.autor= autor;
-     }
-
-
-      public void displayAuthor(){
-
-         System.out.println("Autor książki:" + autor);
-       }
 }
+
 
