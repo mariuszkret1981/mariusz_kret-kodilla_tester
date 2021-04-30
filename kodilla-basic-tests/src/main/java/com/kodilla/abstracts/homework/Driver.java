@@ -6,7 +6,11 @@ class Driver extends Job{
     }
 
     @Override
-    public void amountOfLeave() {
+    public void typeOfWork() {
+        System.out.println("Pracownik fizyczny");
+        System.out.println(getSalary());
+        System.out.println(getAmountOfLeave());
+        System.out.println(getResponsibilities());
 
     }
 }
