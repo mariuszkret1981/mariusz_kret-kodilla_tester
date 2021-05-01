@@ -7,11 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatorTestSuite {
    @Test
-    public void testSubtract() {
+    public void testSquare() {
         Calculator calculator = new Calculator();
-        int a = 8;
-        int b = 5;
-        int subtractResult = calculator.subtract(a, b);
-        assertEquals(3, subtractResult);
+        int a = -2;
+        int squareResult = calculator.square(a);
+        assertEquals(4, squareResult);
     }
 }
