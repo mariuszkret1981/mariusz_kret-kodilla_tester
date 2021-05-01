@@ -9,8 +9,8 @@ public class CalculatorTestSuite {
    @Test
     public void testSquare() {
         Calculator calculator = new Calculator();
-        int a = 0;
+        int a = 2;
         int squareResult = calculator.square(a);
-        assertEquals(0, squareResult);
+        assertEquals(4, squareResult);
     }
 }
